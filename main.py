@@ -5,11 +5,11 @@ import pandas as pd
 if __name__ == '__main__': 
     
     #Coleta de todos os dados a serem analizados e armazenar em variáveis para facilitar a escrita do código
-    Url2022=(r"D:\APS.2022.2\despesas2022.csv")
-    Url2018=(r"D:\APS.2022.2\despesas2018.csv")
-    Url2019=(r"D:\APS.2022.2\despesas2019.csv")
-    Url2020=(r"D:\APS.2022.2\despesas2020.csv")
-    Url2021=(r"D:\APS.2022.2\despesas2021.csv")
+    Url2022=(r"despesas2022.csv")
+    Url2018=(r"despesas2018.csv")
+    Url2019=(r"despesas2019.csv")
+    Url2020=(r"despesas2020.csv")
+    Url2021=(r"despesas2021.csv")
     
     #Leitura dos arquivos csv pelo pandas, e armazenamento das mesmas em variáveis fixas
     Eco2022=pd.read_csv(Url2022, sep=";", decimal=",")
